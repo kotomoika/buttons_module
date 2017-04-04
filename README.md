@@ -5,5 +5,7 @@ For demonstration just open index.html
 
 For developing:
   > npm install -g gulp
+  
   > npm install
+  
   > gulp
