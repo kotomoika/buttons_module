@@ -1,0 +1,36 @@
+.content
+	.column
+		display: inline-block
+		margin: 0 10px
+	&__button
+		display: inline-block
+		padding: 5px
+		margin: 10px 0
+		border-radius: 10px
+		border: 1px solid transparent
+		box-sizing: border-box
+		box-shadow: btn_shadow
+		text-align: center
+		text-decoration: none
+		font-family: Arial, sans-serif
+		color: btn_text_white
+		transition: all 0.3s ease
+		&:not(.disabled):hover
+			box-shadow: btn_hover_shadow
+		&:not(.disabled):active
+			box-shadow: btn_active_shadow
+		&.disabled
+			opacity: 0.4
+		&.link,
+		&.link:hover,
+		&.text,
+		&.text:hover
+			padding: 0
+			background: none!important
+			border: none
+			box-shadow: none
+			color: btn_text_black
+		&.link
+			text-decoration: underline
+			color: blue
+			
