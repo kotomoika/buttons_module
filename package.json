@@ -4,7 +4,6 @@
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^3.0.0",
     "gulp-sourcemaps": "^2.4.1",
-    "gulp-stylus": "^2.6.0",
-    "stylus-import-tree": ""
+    "gulp-stylus": "^2.6.0"
   }
 }
